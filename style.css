@@ -46,6 +46,19 @@ main {
 /*3. The next section should have three 300x375 images (in a ul).
   a. they should be next to each other, spaced equidistant */
 
+main > ul {
+   margin-top: 15px;
+   overflow: hidden;
+  }
+
+  main > ul > li {
+    float: left;
+    margin-right: 30px;
+  }
+
+  main > ul > li:last-child {
+    margin-right: 0px;
+  }
 
 
 /*4. the next section should have an img 480x400 and a scrollable text section of the same size
