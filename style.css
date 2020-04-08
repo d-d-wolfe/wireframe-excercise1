@@ -5,13 +5,11 @@
   c. center the li vertically
   d. space the li horizontally
 */  
-* {
-  outline: 1px dotted red;
-  box-sizing: border-box;
-}
+
 
 header {
   height: 100px;
+  background-color: grey;
 }
 
 nav {
@@ -64,6 +62,10 @@ main > ul {
 /*4. the next section should have an img 480x400 and a scrollable text section of the same size
   a. they should fit the page (fix margins, borders, padding)
   b. create a button at the bottom of the text that says "Call to Action" */
+main {
+  overflow: hidden;
+}
+
 main > section {
   margin-top: 15px;
 }
@@ -74,7 +76,7 @@ main > section > img {
 
 article {
   float: left;
-  width: 50%;
+  width: 48%;
   padding-left: 15px;
 }
 
@@ -92,5 +94,9 @@ button {
 
 /*5. apply colors (black and gray) to sections as needed */
 
-
+footer {
+  margin-top: 15px;
+  height: 100px;
+  background-color: grey;
+}
 
