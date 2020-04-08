@@ -64,6 +64,31 @@ main > ul {
 /*4. the next section should have an img 480x400 and a scrollable text section of the same size
   a. they should fit the page (fix margins, borders, padding)
   b. create a button at the bottom of the text that says "Call to Action" */
+main > section {
+  margin-top: 15px;
+}
+
+main > section > img {
+  float: left;
+}
+
+article {
+  float: left;
+  width: 50%;
+  padding-left: 15px;
+}
+
+article p {
+  height: 364px;
+  overflow: auto;
+  font: serif;
+  font-style: oblique;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
 
 /*5. apply colors (black and gray) to sections as needed */
 
