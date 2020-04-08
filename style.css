@@ -4,15 +4,48 @@
   b. there should be 4 list items in a ul
   c. center the li vertically
   d. space the li horizontally
+*/  
+* {
+  outline: 1px dotted red;
+  box-sizing: border-box;
+}
 
-2. in the first section of the body there should be an img 960x450
-  a. img should be centered on the page and be dynamic so that it stays the same size no matter the size of the screen.
+header {
+  height: 100px;
+}
 
-3. The next section should have three 300x375 images (in a ul).
-  a. they should be next to each other, spaced equidistant 
+nav {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  }
 
-4. the next section should have an img 480x400 and a scrollable text section of the same size
+  nav img {
+    float: left;
+    margin-top: 15px;
+  }
+nav ul {
+  margin-left: 230px;
+}
+nav ul li {
+  float: left;
+  margin-top: 45px;
+  margin-right: 110px;
+}
+/* 2. in the first section of the body there should be an img 960x450
+  a. img should be centered on the page and be dynamic so that it stays the same size no matter the size of the screen. */
+
+
+  
+/*3. The next section should have three 300x375 images (in a ul).
+  a. they should be next to each other, spaced equidistant */
+
+/*4. the next section should have an img 480x400 and a scrollable text section of the same size
   a. they should fit the page (fix margins, borders, padding)
-  b. create a button at the bottom of the text that says "Call to Action"
+  b. create a button at the bottom of the text that says "Call to Action" */
 
-*/
+/*5. apply colors (black and gray) to sections as needed */
+
+
+
