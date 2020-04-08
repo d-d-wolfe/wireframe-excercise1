@@ -36,10 +36,17 @@ nav ul li {
 /* 2. in the first section of the body there should be an img 960x450
   a. img should be centered on the page and be dynamic so that it stays the same size no matter the size of the screen. */
 
+main {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
 
-  
 /*3. The next section should have three 300x375 images (in a ul).
   a. they should be next to each other, spaced equidistant */
+
+
 
 /*4. the next section should have an img 480x400 and a scrollable text section of the same size
   a. they should fit the page (fix margins, borders, padding)
